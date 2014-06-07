@@ -7,8 +7,6 @@ var fs = require("fs"),
 var parser = require("nomnom"),
     tilelive = require("tilelive-cache")(require("tilelive-streaming")(require("tilelive")));
 
-require("mbtiles").registerProtocols(tilelive);
-
 parser.options({
   version: {
     abbr: "v",
