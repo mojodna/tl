@@ -7,9 +7,7 @@
     "tilelive": "^4.5.3",
     "tilelive-cache": "^0.2.1",
     "nomnom": "git+https://github.com/mojodna/nomnom#options-with-spaces",
-    "async": "^0.9.0"
-  },
-  "optionalDependencies": {
-    "mbtiles": "git+https://github.com/mojodna/node-mbtiles#streaming"
+    "async": "^0.9.0",
+    "tilelive-streaming": "^0.1.0"
   }
 }
