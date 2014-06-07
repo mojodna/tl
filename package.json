@@ -1,8 +1,15 @@
 {
   "name": "tl",
   "version": "0.0.0",
-  "description": "",
-  "author": "",
+  "description": "A command line tool for manipulating data available via tilelive providers",
+  "author": "Seth Fitzsimmons <seth@mojodna.net>",
+  "bin": "bin/tl.js",
+  "license": "ISC",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mojodna/tl.git"
+  },
   "dependencies": {
     "tilelive": "^4.5.3",
     "tilelive-cache": "^0.2.1",
