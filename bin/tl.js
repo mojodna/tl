@@ -21,6 +21,9 @@ parser.options({
 var commandDir = path.join(__dirname, "..", "lib", "commands"); 
 
 fs.readdirSync(commandDir)
+  .filter(function(x) {
+    return path.extname(x) === ".js";
+  })
   .forEach(function(x) {
     require(path.join(commandDir, x))(parser, tilelive);
   });
