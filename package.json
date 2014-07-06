@@ -11,10 +11,11 @@
     "url": "https://github.com/mojodna/tl.git"
   },
   "dependencies": {
+    "async": "^0.9.0",
+    "nomnom": "git+https://github.com/mojodna/nomnom#options-with-spaces",
+    "progress-stream": "^0.5.0",
     "tilelive": "^4.5.3",
     "tilelive-cache": "^0.2.1",
-    "nomnom": "git+https://github.com/mojodna/nomnom#options-with-spaces",
-    "async": "^0.9.0",
     "tilelive-streaming": "^0.1.0"
   }
 }
