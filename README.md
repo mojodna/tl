@@ -14,10 +14,11 @@ npm install -g mbtiles tilelive-file
 
 ## Usage
 
-Copy tiles from a filesystem to an MBTiles archive:
+Copy tiles from a filesystem to an MBTiles archive (assumes that
+`tilelive-file` and `mbtiles` are installed):
 
 ```bash
-tl copy -r mbtiles -r tilelive-file file://./tiles mbtiles://./tiles.mbtiles
+tl copy file://./tiles mbtiles://./tiles.mbtiles
 ```
 
 Render a [TM2](https://github.com/mapbox/tm2) style for a small area into an
@@ -27,8 +28,6 @@ MBTiles archive:
 npm install -g mbtiles tilelive-tmstyle tilelive-mapbox tilejson \
   tilelive-vector@^0.13.0
 tl copy 
-  -r mbtiles -r tilelive-tmstyle -r tilelive-mapbox -r tilejson \
-  -r tilelive-vector \
   -z 6 -Z 6 -b "-124.4096 32.5343 -114.1308 42.0095" \
   tmstyle://./project.tm2/ mbtiles://./tiles.mbtiles
 ```
