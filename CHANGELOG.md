@@ -1,5 +1,9 @@
 # Changes
 
+## v0.2.1 - 10/14/14
+
+* Re-published without junk lying around
+
 ## v0.2.0 - 10/14/14
 
 * Auto-register tilelive modules via `tilelive-modules`
