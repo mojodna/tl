@@ -1,8 +1,8 @@
 # tl
 
-An command line alternative to
-[`tilelive`](https://github.com/mapbox/tilelive.js)'s command that supports
-streaming.
+A command line alternative to
+[`tilelive`](https://github.com/mapbox/tilelive.js) that supports streaming
+copies and static image rendering.
 
 ## Installation
 
