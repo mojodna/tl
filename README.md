@@ -32,6 +32,19 @@ tl copy
   tmstyle://./project.tm2/ mbtiles://./tiles.mbtiles
 ```
 
+Render a static image using the rendered tiles:
+
+```bash
+tl render
+  -z 6 -b "-123 37 -122 38" \
+  mbtiles://./tiles.mbtiles \
+  -o image.png
+```
+
+(This would also work if you used the `tmstyle` source, but the tiles would be
+rendered in the interim.)
+
+
 ## Caveats
 
 Some tilelive providers use other providers but don't depend on them directly

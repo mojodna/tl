@@ -1,5 +1,9 @@
 # Changes
 
+## v0.3.0 - 11/18/14
+
+* Add `render` command
+
 ## v0.2.1 - 10/14/14
 
 * Re-published without junk lying around
