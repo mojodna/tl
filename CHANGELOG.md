@@ -1,5 +1,10 @@
 # Changes
 
+## v0.3.1 - 1/2/15
+
+* Update `tilelive-streaming` for proper buffering (effectively increasing
+  concurrency)
+
 ## v0.3.0 - 11/18/14
 
 * Add `render` command
