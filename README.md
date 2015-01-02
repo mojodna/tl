@@ -52,7 +52,7 @@ Some tilelive providers use other providers but don't depend on them directly
 some modules that you're not using directly.
 
 For example, [`tilelive-tmstyle`](https://github.com/mojodna/tilelive-tmstyle)
-loads data using
+often loads data using
 [`tilelive-mapbox`](https://github.com/mojodna/tilelive-mapbox), which actually
 uses [`tilejson`](https://github.com/mapbox/node-tilejson) under the hood to do
 the fetching. Rendering is then done using
