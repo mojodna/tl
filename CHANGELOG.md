@@ -1,8 +1,10 @@
 # Changes
 
-## vNext
+## v0.3.2 - 4/14/15
 
 * Improve error logging when loading tilelive modules
+* Update `tilelive-streaming` with concurrent buffering (for better throughput
+  with flakey sources)
 
 ## v0.3.1 - 1/2/15
 
