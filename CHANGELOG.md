@@ -1,5 +1,9 @@
 # Changes
 
+## v0.3.3
+
+* Upstream concurrency improvements in `tilelive-streaming`
+
 ## v0.3.2 - 4/14/15
 
 * Improve error logging when loading tilelive modules
