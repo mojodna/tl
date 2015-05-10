@@ -1,5 +1,9 @@
 # Changes
 
+## v0.3.4
+
+* Opt into retries if available
+
 ## v0.3.3
 
 * Upstream concurrency improvements in `tilelive-streaming`
