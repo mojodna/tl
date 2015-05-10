@@ -17,6 +17,6 @@
     "tilelive": "*",
     "tilelive-cache": "^0.4.2",
     "tilelive-modules": "^0.1.2",
-    "tilelive-streaming": "~0.3.0"
+    "tilelive-streaming": "~0.3.1"
   }
 }

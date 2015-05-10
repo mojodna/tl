@@ -3,6 +3,7 @@
 ## v0.3.4
 
 * Opt into retries if available
+* Pick up fixes in `tilelive-streaming`
 
 ## v0.3.3
 
