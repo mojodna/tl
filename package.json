@@ -5,7 +5,6 @@
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
   "bin": "bin/tl.js",
   "license": "ISC",
-  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/mojodna/tl.git"
