@@ -1,6 +1,6 @@
 # Changes
 
-## v0.4.0
+## v0.4.0 6/30/15
 
 * Update `tilelive-streaming` for compatibility with Node-0.12.x and iojs
 * Update `abaculus` for compatibility with Node-0.12.x and iojs
