@@ -7,8 +7,8 @@ copies and static image rendering.
 ## Installation
 
 ```bash
-npm install -g tl
-npm install -g mbtiles tilelive-file
+npm install tl
+npm install mbtiles tilelive-file
 # install any other tilelive modules you'd like to read/write from
 ```
 
@@ -25,7 +25,7 @@ Render a [TM2](https://github.com/mapbox/tm2) style for a small area into an
 MBTiles archive:
 
 ```bash
-npm install -g mbtiles tilelive-tmstyle tilelive-mapbox tilejson \
+npm install mbtiles tilelive-tmstyle tilelive-mapbox tilejson \
   tilelive-vector@^0.13.0
 tl copy 
   -z 6 -Z 6 -b "-124.4096 32.5343 -114.1308 42.0095" \
