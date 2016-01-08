@@ -11,11 +11,11 @@
   },
   "dependencies": {
     "abaculus": "^1.2.0",
-    "async": "^0.9.0",
+    "async": "^1.5.2",
     "nomnom": "git+https://github.com/mojodna/nomnom#options-with-spaces",
     "tilelive": "*",
-    "tilelive-cache": "^0.4.2",
-    "tilelive-modules": "^0.1.2",
-    "tilelive-streaming": "~0.4.0"
+    "tilelive-cache": "^0.5.1",
+    "tilelive-modules": "^0.2.0",
+    "tilelive-streaming": "~0.6.0"
   }
 }
