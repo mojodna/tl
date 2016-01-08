@@ -1,5 +1,10 @@
 # Changes
 
+## v0.6.0 1/7/16
+
+* Include changes merged via GitHub
+* Pass `scale` parameter to sources
+
 ## v0.5.0 1/7/16
 
 * Update dependencies
