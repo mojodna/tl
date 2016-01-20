@@ -1,5 +1,9 @@
 # Changes
 
+## v0.6.1
+
+* Increase `UV_THREADPOOL_SIZE`
+
 ## v0.6.0 1/7/16
 
 * Include changes merged via GitHub
