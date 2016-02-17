@@ -1,9 +1,10 @@
 # Changes
 
-## v0.7.0
+## v0.7.0 2/16/16
 
 * Increase `UV_THREADPOOL_SIZE`
 * Upgrade to `tilelive-cache@^0.6.1` with improvements to `close()` handling
+* Display usage when no command was provided
 
 ## v0.6.0 1/7/16
 

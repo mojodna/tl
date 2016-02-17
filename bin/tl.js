@@ -31,4 +31,10 @@ fs.readdirSync(commandDir)
     require(path.join(commandDir, x))(parser, tilelive);
   });
 
-parser.parse();
+var args = parser.parse();
+
+if (args.command) {
+  // no command matched
+  parser.parse("--help");
+  process.exit(1);
+}
