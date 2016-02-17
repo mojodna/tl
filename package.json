@@ -14,7 +14,7 @@
     "async": "^1.5.2",
     "nomnom": "git+https://github.com/mojodna/nomnom#options-with-spaces",
     "tilelive": "*",
-    "tilelive-cache": "^0.5.1",
+    "tilelive-cache": "^0.6.1",
     "tilelive-modules": "^0.2.0",
     "tilelive-streaming": "~0.6.0"
   }
