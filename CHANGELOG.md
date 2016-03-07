@@ -1,5 +1,10 @@
 # Changes
 
+## v0.8.0 - 3/7/16
+
+* Drop `render` command, as including `mapnik` as a dependency (indirectly or
+  otherwise) wasn't worth the problems that it was causing
+
 ## v0.7.0 2/16/16
 
 * Increase `UV_THREADPOOL_SIZE`

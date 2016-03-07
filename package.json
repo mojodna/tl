@@ -10,7 +10,6 @@
     "url": "https://github.com/mojodna/tl.git"
   },
   "dependencies": {
-    "abaculus": "^1.2.0",
     "async": "^1.5.2",
     "nomnom": "git+https://github.com/mojodna/nomnom#options-with-spaces",
     "tilelive": "*",
