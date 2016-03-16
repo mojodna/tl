@@ -1,5 +1,9 @@
 # Changes
 
+## v0.8.1 - 3/15/16
+
+* Pull in MBTiles optimizations from `tilelive-streaming`
+
 ## v0.8.0 - 3/7/16
 
 * Drop `render` command, as including `mapnik` as a dependency (indirectly or
