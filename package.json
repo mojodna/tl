@@ -1,6 +1,6 @@
 {
   "name": "tl",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "A command line tool for manipulating data available via tilelive providers",
   "author": "Seth Fitzsimmons <seth@mojodna.net>",
   "bin": "bin/tl.js",
