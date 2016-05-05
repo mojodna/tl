@@ -1,5 +1,9 @@
 # Changes
 
+## v0.9.0
+
+* Upgrade `tilelive-modules`
+
 ## v0.8.1 - 3/15/16
 
 * Pull in MBTiles optimizations from `tilelive-streaming`
