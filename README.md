@@ -27,9 +27,15 @@ MBTiles archive:
 ```bash
 npm install mbtiles tilelive-tmstyle tilelive-mapbox tilejson \
   tilelive-vector@^0.13.0
-tl copy 
+tl copy
   -z 6 -Z 6 -b "-124.4096 32.5343 -114.1308 42.0095" \
   tmstyle://./project.tm2/ mbtiles://./tiles.mbtiles
+```
+
+Copy tiles from an MBTiles archive to S3.
+
+```bash
+tl copy mbtiles://./tiles.mbtiles "s3://bucket-name/{z}/{x}/{y}.png?acl=public-read"
 ```
 
 ## Caveats
