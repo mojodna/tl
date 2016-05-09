@@ -1,6 +1,6 @@
 # Changes
 
-## v0.9.0
+## v0.9.0 - 5/9/16
 
 * Upgrade `tilelive-modules`
 * Add `--quiet` (`-q`) option to `copy` command
