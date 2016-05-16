@@ -15,6 +15,7 @@
     "tilelive": "*",
     "tilelive-cache": "^0.6.1",
     "tilelive-modules": "^0.3.0",
-    "tilelive-streaming": "~0.7.0"
+    "tilelive-streaming": "~0.7.0",
+    "yargs": "^4.7.0"
   }
 }

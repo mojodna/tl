@@ -7,34 +7,40 @@ process.env.UV_THREADPOOL_SIZE = process.env.UV_THREADPOOL_SIZE || Math.ceil(Mat
 var fs = require("fs"),
     path = require("path");
 
-var parser = require("nomnom"),
-    tilelive = require("tilelive-cache")(require("tilelive-streaming")(require("tilelive")));
+var tilelive = require("tilelive-cache")(require("tilelive-streaming")(require("tilelive"))),
+    yargs = require("yargs");
 
-parser.options({
-  version: {
-    abbr: "v",
-    flag: true,
-    help: "Show version info",
-    callback: function() {
-      return "tl v" + require("../package.json").version;
-    }
-  }
-});
+yargs
+  .usage("$0 [args] <command> [args]")
+  .option("r", {
+    alias: "require",
+    describe: "Require a specific tilelive module",
+  })
+  .alias({
+    help: "h",
+    version: "v"
+  })
+  .help()
+  .require("command")
+  .strict()
+  .version();
 
-var commandDir = path.join(__dirname, "..", "lib", "commands"); 
+var commandDir = path.join(__dirname, "..", "lib", "commands");
 
 fs.readdirSync(commandDir)
   .filter(function(x) {
     return path.extname(x) === ".js";
   })
   .forEach(function(x) {
-    require(path.join(commandDir, x))(parser, tilelive);
+    require(path.join(commandDir, x))(yargs, tilelive);
   });
 
-var args = parser.parse();
+yargs.argv;
 
-if (args.command) {
-  // no command matched
-  parser.parse("--help");
-  process.exit(1);
-}
+// var args = parser.parse();
+//
+// if (args.command) {
+//   // no command matched
+//   parser.parse("--help");
+//   process.exit(1);
+// }
