@@ -10,11 +10,28 @@ var fs = require("fs"),
 var tilelive = require("tilelive-cache")(require("tilelive-streaming")(require("tilelive"))),
     yargs = require("yargs");
 
-yargs
+// mangle process.argv such that quoted -b values are split out
+// this is necessary to support unquoted values correctly, as nargs must be 4 in that case
+var argv = process.argv.slice();
+
+argv.forEach(function(x, i) {
+  if ((argv[i - 1] === "-b" ||
+       argv[i - 1] === "--bounds") &&
+      x.match(/(\s)/g).length === 3) {
+    var coords = x.split(" ").map(function(coord) {
+      return coord.trim();
+    });
+
+    argv.splice.apply(argv, [i, 1].concat(coords));
+  }
+});
+
+yargs(argv)
   .usage("$0 [args] <command> [args]")
   .option("r", {
     alias: "require",
     describe: "Require a specific tilelive module",
+    global: true
   })
   .alias({
     help: "h",
