@@ -49,6 +49,8 @@ fs.readdirSync(commandDir)
     return path.extname(x) === ".js";
   })
   .forEach(function(x) {
+    // commands are registered this way (vs. exporting builder, etc.) so that they have a tilelive
+    // reference
     require(path.join(commandDir, x))(yargs, tilelive);
   });
 
