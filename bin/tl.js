@@ -55,11 +55,3 @@ fs.readdirSync(commandDir)
   });
 
 yargs.argv;
-
-// var args = parser.parse();
-//
-// if (args.command) {
-//   // no command matched
-//   parser.parse("--help");
-//   process.exit(1);
-// }
