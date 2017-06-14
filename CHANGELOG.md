@@ -1,5 +1,9 @@
 # Changes
 
+## v0.10.0 - 6/13/17
+
+* Update dependencies
+
 ## v0.9.0 - 5/9/16
 
 * Upgrade `tilelive-modules`
