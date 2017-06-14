@@ -8,7 +8,7 @@ var fs = require("fs"),
     path = require("path");
 
 var parser = require("nomnom"),
-    tilelive = require("tilelive-cache")(require("tilelive-streaming")(require("tilelive")));
+    tilelive = require("tilelive-cache")(require("tilelive-streaming")(require("@mapbox/tilelive")));
 
 parser.options({
   version: {
