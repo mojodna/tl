@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "async": "^1.5.2",
-    "nomnom": "git+https://github.com/mojodna/nomnom#options-with-spaces",
+    "nomnom": "https://github.com/mojodna/nomnom/tarball/options-with-spaces",
     "@mapbox/tilelive": "*",
     "tilelive-cache": "^0.7.1",
     "tilelive-modules": "^0.3.0",

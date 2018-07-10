@@ -1,5 +1,9 @@
 # Changes
 
+## v0.10.2 - 7/10/18
+
+* Use GitHub archive URL instead of git repository for `nomnom` dep
+
 ## v0.10.1 - 6/14/17
 
 * Fix dependency `require`s
